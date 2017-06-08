@@ -48,6 +48,7 @@ Prenez le zip décompressez le dossier. Copiez le fichier pyparsing.py dans « C
 https://pypi.python.org/packages/3b/d4/1b6ca16678d13ffd426bcd199231f3d5effaa6d234747fb88899e649dec3/networkx-1.11.zip
 
 Dézippez le dossier zippé. Ensuite, dans le dossier networkx.1.11 dézippé, copiez le dossier networkx dans « C:\Python34\Lib\site-packages »
-https://pypi.python.org/pypi/decorator
+
+Networkx nécessite l’installation de : https://pypi.python.org/pypi/decorator
 
 Prenez le tar.gz décompressez le dossier. Copiez le fichier decorator.py dans « C:\Python34\Lib\site-packages ».
