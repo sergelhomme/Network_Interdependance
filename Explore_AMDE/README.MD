@@ -27,16 +27,18 @@ Laissez tous les paramètres par défaut.
 
 -------------------------
 2) Continuez avec l’installation de MatplotLib
-https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.4.3/windows/matplotlib-1.4.3.win32-py3.4.exe
 
-Matplotlib nécessite ensuite l’installation de :
-https://pypi.python.org/pypi/six
+Matplolib : https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.4.3/windows/matplotlib-1.4.3.win32-py3.4.exe
+
+Matplotlib nécessite ensuite l’installation de : https://pypi.python.org/pypi/six
 
 Prenez le tar.gz décompressez le dossier. Copiez le fichier six.py dans « C:\Python34\Lib\site-packages ».
-https://pypi.python.org/pypi/python-dateutil/2.4.1
+
+Matplotlib nécessite aussi l’installation de : https://pypi.python.org/pypi/python-dateutil/2.4.1
 
 Prenez le zip décompressez le dossier. Copiez le dossier dateutil dans « C:\Python34\Lib\site-packages ».
-https://pypi.python.org/pypi/pyparsing/2.0.3
+
+Matplotlib nécessite enfin l’installation de : https://pypi.python.org/pypi/pyparsing/2.0.3
 
 Prenez le zip décompressez le dossier. Copiez le fichier pyparsing.py dans « C:\Python34\Lib\site-packages ».
 
