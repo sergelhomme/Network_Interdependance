@@ -164,7 +164,7 @@ class MyForm(QtGui.QMainWindow):
                       am[int(text)-1][int(text2)-1] = text3
                       adresse = os.path.join(filepath, "amde.csv")
                       f = open(adresse, "wt")
-                      w = csv.writer(f,,lineterminator='\n')
+                      w = csv.writer(f,lineterminator='\n')
                       for row in am :
                            w.writerow(row)
                       f.close()
