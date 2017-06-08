@@ -319,7 +319,7 @@ class MyForm(QtGui.QMainWindow):
          G = nx.DiGraph()
          G.add_edges_from(net)
          positi = nx.spring_layout(G)
-         plt.plot(nx.draw(G,pos = positi,node_size=200))
+         plt.plot(nx.draw(G,pos = positi,node_size=300,with_labels = True))
          plt.show()
 
      def export(self):
