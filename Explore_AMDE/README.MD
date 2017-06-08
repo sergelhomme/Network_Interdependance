@@ -4,26 +4,25 @@ Cet outil vise à automatiser la production de scénarios potentiellement obtenu
 
 Cet outil fonctionne à partir de python. Pour cela, il vous faudra simplement disposer d’une version de python comportant les bibliothèques Scipy, Matplotlib et Networkx. Les deux premières sont très courantes (il se peut que vous les ayez déjà installées), l’installation de NetworkX est alors très simple (rapportez-vous au troisième item). Si vous partez de zéro, suivez les items ci-dessous un par un. Le dossier « Explore_AMDE » peut être placé n’importe où dans vos documents, l’ouverture de l’interface se fera par un simple double-clic sur le fichier « run_amde.py ».
 
+-------------------------
 1) Commencez par installer Python et deux bibliothèques courantes. Pour cela, choisissez l’option la plus simple en utilisant les versions stables et bénéficiant d’un installeur (les fichiers .msi ou .exe pour windows)
 
-Installation de Python 3.4.4
-
-https://www.python.org/downloads/release/python-344/
+Installation de Python 3.4.4 : https://www.python.org/downloads/release/python-344/
 
 Pour windows : https://www.python.org/ftp/python/3.4.4/python-3.4.4.msi
 
 Laissez tous les paramètres par défaut.
-Installation Numpy
 
-https://sourceforge.net/projects/numpy/files/NumPy/1.10.2/
+Installation Numpy : https://sourceforge.net/projects/numpy/files/NumPy/1.10.2/
 
 Pour windows : https://sourceforge.net/projects/numpy/files/NumPy/1.10.2/numpy-1.10.2-win32-superpack-python3.4.exe/download
 
 Laissez tous les paramètres par défaut.
-Installation Scipy
-https://sourceforge.net/projects/scipy/files/scipy/0.16.1/
+
+Installation Scipy : https://sourceforge.net/projects/scipy/files/scipy/0.16.1/
 
 Pour windows : https://sourceforge.net/projects/scipy/files/scipy/0.16.1/scipy-0.16.1-win32-superpack-python3.4.exe/download
+
 Laissez tous les paramètres par défaut.
 
 -------------------------
@@ -43,6 +42,7 @@ Prenez le zip décompressez le dossier. Copiez le fichier pyparsing.py dans « C
 
 -------------------------
 3) Enfin, vous pouvez procéder à l’installation de la bibliothèque NetworkX qui permet d’effectuer de nombreux calculs sur les graphes.
+
 https://pypi.python.org/packages/3b/d4/1b6ca16678d13ffd426bcd199231f3d5effaa6d234747fb88899e649dec3/networkx-1.11.zip
 
 Dézippez le dossier zippé. Ensuite, dans le dossier networkx.1.11 dézippé, copiez le dossier networkx dans « C:\Python34\Lib\site-packages »
